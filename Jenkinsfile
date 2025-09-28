@@ -7,7 +7,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/shawac3'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/shawac3-dot/225-lab3-1.git'                   // <------change this
-        KUBECONFIG = credentials('shawac3-pool1-54mct-8l65k')                                             // <------change this
+        KUBECONFIG = credentials('shawac3-225')                                             // <------change this
     }
 
     stages {
